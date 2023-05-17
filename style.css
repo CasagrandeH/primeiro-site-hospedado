@@ -32,7 +32,6 @@ h1 {
     box-shadow: 2px 2px 4px rgb(53, 44, 46);
     display: grid;
     width: 220px;
-    align-self: center;
     margin: auto;
 }
 p {
@@ -47,4 +46,30 @@ p {
     border-radius: 1em;
     box-shadow: 1px 1px 4px black;
     margin: auto;
+}
+.img {
+    padding: 2px;
+}
+
+@media (max-width: 600px) {
+    main {
+        display: grid;
+        width: 400px;
+    }
+    h1 {
+        font: bold 30pt Arial, Helvetica, sans-serif;
+    }
+    p {
+        font: bold 20pt Arial, Helvetica, sans-serif;
+    }
+    .p {
+        text-align: center;
+    }
+    iframe {
+        text-align: center;
+        width: 400px;
+    }
+    .img {
+        padding: 10px;
+    }
 }
