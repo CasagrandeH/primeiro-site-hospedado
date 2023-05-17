@@ -54,7 +54,7 @@ p {
 @media (max-width: 600px) {
     main {
         display: grid;
-        width: 400px;
+        width: 350px;
     }
     h1 {
         font: bold 30pt Arial, Helvetica, sans-serif;
@@ -67,7 +67,8 @@ p {
     }
     iframe {
         text-align: center;
-        width: 400px;
+        width: 350px;
+        height: 200px;
     }
     .img {
         padding: 10px;
