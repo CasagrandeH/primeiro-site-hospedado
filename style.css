@@ -55,6 +55,8 @@ p {
     main {
         display: grid;
         width: 350px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     h1 {
         font: bold 30pt Arial, Helvetica, sans-serif;
