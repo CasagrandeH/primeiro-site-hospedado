@@ -53,10 +53,10 @@ p {
 
 @media (max-width: 600px) {
     main {
+        text-align: center;
         display: grid;
         width: 350px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin: auto;
     }
     h1 {
         font: bold 30pt Arial, Helvetica, sans-serif;
